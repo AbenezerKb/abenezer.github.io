@@ -2,71 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Abenezer</title>
-    <link>//abenezerkb.github.io/</link>
+    <link>https://abenezerkb.github.io/</link>
     <description>Recent content on Abenezer</description>
     <image>
-      <url>//abenezerkb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//abenezerkb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://abenezerkb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://abenezerkb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Apr 2022 23:15:00 +0700</lastBuildDate><atom:link href="//abenezerkb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2023 23:15:00 +0700</lastBuildDate><atom:link href="https://abenezerkb.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to master Streamlit for Data Science</title>
-      <link>//abenezerkb.github.io/blogs/how-to-master-streamlit-for-data-science/</link>
-      <pubDate>Fri, 08 Apr 2022 23:15:00 +0700</pubDate>
+      <title>LoRA Implementation</title>
+      <link>https://abenezerkb.github.io/projects/lora-implementation/</link>
+      <pubDate>Sun, 17 Dec 2023 23:15:00 +0700</pubDate>
       
-      <guid>//abenezerkb.github.io/blogs/how-to-master-streamlit-for-data-science/</guid>
-      <description>Preview The essential Streamlit for all your data science needs To build a web app you’d typically use such Python web frameworks as Django and Flask. But the steep learning curve and the big time investment for implementing these apps present a major hurdle.
-Streamlit makes the app creation process as simple as writing Python scripts!
-In this article, you’ll learn how to master Streamlit when getting started with data science.</description>
+      <guid>https://abenezerkb.github.io/projects/lora-implementation/</guid>
+      <description>LoRA: Low-Rank Adaptation of Large Language Models PyTorch Implementation. Link for the Paper here Link for PyTorch Implementation here </description>
     </item>
     
     <item>
-      <title>Towards reproducible computational drug discovery</title>
-      <link>//abenezerkb.github.io/projects/reproducible-computational-drug-discovery/</link>
-      <pubDate>Wed, 06 Apr 2022 23:15:00 +0700</pubDate>
+      <title>Vision Transformer Implementation</title>
+      <link>https://abenezerkb.github.io/projects/vision-transformer/</link>
+      <pubDate>Tue, 11 Jul 2023 23:15:00 +0700</pubDate>
       
-      <guid>//abenezerkb.github.io/projects/reproducible-computational-drug-discovery/</guid>
-      <description>Abstract The reproducibility of experiments has been a long standing impediment for further scientific progress. Computational methods have been instrumental in drug discovery efforts owing to its multifaceted utilization for data collection, pre-processing, analysis and inference. This article provides an in-depth coverage on the reproducibility of computational drug discovery. This review explores the following topics: (1) the current state-of-the-art on reproducible research, (2) research documentation (e.g. electronic laboratory notebook, Jupyter notebook, etc.</description>
+      <guid>https://abenezerkb.github.io/projects/vision-transformer/</guid>
+      <description>Transformer are usually used in NLP. In computer vision, attention is used with CNN as a part of it. But the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale shows that pure transformer can perform well in image classification. This is a PyTorch implementation of the project.
+Link for the Paper
+Link for PyTorch Implementation</description>
     </item>
     
     <item>
-      <title>ERpred: a web server for the prediction of subtype-specific estrogen receptor antagonists</title>
-      <link>//abenezerkb.github.io/projects/erpred/</link>
-      <pubDate>Tue, 05 Apr 2022 23:15:00 +0700</pubDate>
+      <title>Transformers Model Architecture Implementation</title>
+      <link>https://abenezerkb.github.io/projects/transformers/</link>
+      <pubDate>Sat, 11 Feb 2023 23:15:00 +0700</pubDate>
       
-      <guid>//abenezerkb.github.io/projects/erpred/</guid>
-      <description>Abstract Estrogen receptors alpha and beta (ERα and ERβ) are responsible for breast cancer metastasis through their involvement of clinical outcomes. Estradiol and hormone replacement therapy targets both ERs, but this often leads to an increased risk of breast and endometrial cancers as well as thromboembolism. A major challenge is posed for the development of compounds possessing ER subtype specificity. Herein, we present a large-scale classification structure-activity relationship (CSAR) study of inhibitors from the ChEMBL database which consisted of an initial set of 11,618 compounds for ERα and 7,810 compounds for ERβ.</description>
-    </item>
-    
-    <item>
-      <title>Probing the origins of human acetylcholinesterase inhibition via QSAR modeling and molecular docking</title>
-      <link>//abenezerkb.github.io/projects/acetylcholinesterase/</link>
-      <pubDate>Mon, 04 Apr 2022 23:15:00 +0700</pubDate>
-      
-      <guid>//abenezerkb.github.io/projects/acetylcholinesterase/</guid>
-      <description>Abstract Alzheimer’s disease (AD) is a chronic neurodegenerative disease which leads to the gradual loss of neuronal cells. Several hypotheses for AD exists (e.g., cholinergic, amyloid, tau hypotheses, etc.). As per the cholinergic hypothesis, the deficiency of choline is responsible for AD; therefore, the inhibition of AChE is a lucrative therapeutic strategy for the treatment of AD. Acetylcholinesterase (AChE) is an enzyme that catalyzes the breakdown of the neurotransmitter acetylcholine that is essential for cognition and memory.</description>
-    </item>
-    
-    <item>
-      <title>What Is Bioinformatics</title>
-      <link>//abenezerkb.github.io/blogs/what-is-bioinformatics/</link>
-      <pubDate>Sun, 03 Apr 2022 23:15:00 +0700</pubDate>
-      
-      <guid>//abenezerkb.github.io/blogs/what-is-bioinformatics/</guid>
-      <description>Introduction So you probably have heard of the term Bioinformatics before, but did not get the chance to learn more about what it is and what it can do.
-In this article, I will be giving you a brief high-level overview of this exciting field of Bioinformatics. Thus, the article will be comprehensible to those coming from biology or computer backgrounds alike.
-As a biologist, I have self-taught myself data science and coding (R and Python) after several years of persistence (initially quitting a couple of times the coding concept just kind of clicked at some point in time).</description>
+      <guid>https://abenezerkb.github.io/projects/transformers/</guid>
+      <description>Attention Is All You Need</description>
     </item>
     
     <item>
       <title>My 1st post</title>
-      <link>//abenezerkb.github.io/page/</link>
+      <link>https://abenezerkb.github.io/page/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>//abenezerkb.github.io/page/</guid>
+      <guid>https://abenezerkb.github.io/page/</guid>
       <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Recommendation System</title>
+      <link>https://abenezerkb.github.io/projects/recommendation-system/</link>
+      <pubDate>Mon, 20 Apr 2020 23:15:00 +0700</pubDate>
+      
+      <guid>https://abenezerkb.github.io/projects/recommendation-system/</guid>
+      <description>Recommendation System. This is a movie recommendation system. It works based on users&#39; ratings for collaborative filtering and it also works based on content filtering to handle cold-start problem
+The data used in this project is from this website Link for the Project here </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://abenezerkb.github.io/blogs/coming-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abenezerkb.github.io/blogs/coming-up/</guid>
+      <description>COMING SOON Stay Tuned </description>
     </item>
     
   </channel>

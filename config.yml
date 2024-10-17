@@ -57,7 +57,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
-    subtitle: "This is the website of **Abenezer Kebede Angamo.** and I'm a software engineer and I have interest in doing research on **Learning Representation, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects, shot me an email if you're interested in working together."
+    subtitle: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **Learning Representation, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
     imageUrl: "images/profile.png"
     imageWidth: 200
     imageHeight: 200
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
-    Content: "This is the website of **Abenezer Kebede Angamo.** and I'm a software engineer and I have interest in doing research on **Learning Representation, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects, shot me an email if you're interested in working together."
+    Content: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **Learning Representation, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
 
   socialIcons:
     - name: twitter
