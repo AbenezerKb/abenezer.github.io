@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Abenezer
-  description: "This is the website of **Abenezer Kebede Angamo.** and I'm a software engineer and I have interest in doing research on **Learning Representation, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects, shot me an email if you're interested in working together."
+  description: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **Learning Representation, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
   keywords:
     [
       AI,
