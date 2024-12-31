@@ -61,7 +61,7 @@ params:
     imageUrl: "images/profile.png"
     imageWidth: 200
     imageHeight: 200
-    imageTitle: "Data Professor"
+    imageTitle: "Abenezer"
     buttons:
       - name: Blogs
         url: blogs
