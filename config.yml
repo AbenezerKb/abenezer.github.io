@@ -18,15 +18,15 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Abenezer
-  description: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **Representation Learning, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
+  description: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **CV, Computer Vision, and Multimodal**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
   keywords:
     [
       AI,
       Deep Learning,
       Machine Learning,
-      Learning Representation,
-      Federated Learning,
-      Reasoning,
+      CV,
+      Computer Vision,
+      Multimodal
     ]
   author: Abenezer
   # author: ["Me", "You"] # multiple authors
@@ -57,7 +57,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
-    subtitle: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **Representation Learning, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
+    subtitle: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **CV, Computer Vision, and Multimodal**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
     imageUrl: "images/profile.png"
     imageWidth: 200
     imageHeight: 200
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
-    Content: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **Representation Learning, Reasoning, and Federated Learning**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
+    Content: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **CV, Computer Vision, and Multimodal**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
 
   socialIcons:
     - name: twitter
@@ -82,6 +82,8 @@ params:
       url: "https://www.linkedin.com/in/dev-abenezer/"
     - name: github
       url: "https://github.com/AbenezerKb"
+    - name: email
+      url: "mailto:aangamo@aimsammi.org"
 
   analytics:
     google:

@@ -46,7 +46,7 @@ Link for PyTorch Implementation</description>
       <pubDate>Mon, 20 Apr 2020 23:15:00 +0700</pubDate>
       
       <guid>https://abenezerkb.github.io/projects/recommendation-system/</guid>
-      <description>Recommendation System. This is a movie recommendation system. It works based on users&#39; ratings for collaborative filtering and it also works based on content filtering to handle cold-start problem
+      <description>Recommendation System. This is a movie recommendation system. It works based on users&amp;rsquo; ratings for collaborative filtering and it also works based on content filtering to handle cold-start problem
 The data used in this project is from this website Link for the Project here </description>
     </item>
     
