@@ -1,0 +1,126 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Abenezer Angamo
+theme: PaperMod
+
+
+assets:
+  favicon16x16: /assets/favicon-16x16.png
+  favicon512x512: /assets/android-chrome-512x512.png	
+  favicon32x32: /assets/favicon-32x32.png
+  favicon192x192: /assets/android-chrome-192x192.png
+  apple_touch_icon: /assets/apple-touch-icon.png
+
+favicon: favicon.ico
+
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blogs
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30    
+
+# params:
+#   defaultTheme: dark
+#   homeInfoParams:
+#     Title: "Hi there \U0001F44B"
+#     Content: >-
+#       Welcome to my website.      
+#   socialIcons:
+#     - name: email
+#       url: 'mailto:aangamo@aimsammi.org'
+
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Abenezer
+  description: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **CV, Computer Vision, and Multimodal**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
+  keywords:
+    [
+      AI,
+      Deep Learning,
+      Machine Learning,
+      CV,
+      Computer Vision,
+      Multimodal
+    ]
+  homeInfoParams:
+      title: "Welcome! \U0001F44B"
+      content: >-
+        I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on ** Privacy-Preserving Federated Learning, Representation Learning, and Reasoning **. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together.
+        
+        ## News
+        - 📰 May 2025: Launched new project "Vision Transformer Implementation".
+        - 🏆 April 2025: Received XYZ award.
+        - 📢 March 2025: Gave a talk at ABC Conference.
+
+  socialIcons:
+      - name: twitter
+        url: "https://x.com/abbenyy"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/dev-abenezer/"
+      - name: github
+        url: "https://github.com/AbenezerKb"
+      - name: email
+        url: "mailto:aangamo@aimsammi.org"
+  author: Abenezer
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Abenezer Kebede Angamo"
+    icon: "images/terminal.png"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome! \U0001F44B"
+    # subtitle: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **CV, Computer Vision, and Multimodal**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
+    subtitle: |
+        I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on ** Privacy-Preserving Federated Learning, Representation Learning, and Reasoning **. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together. <br>
+       
+
+        
+
+        ## News <br>
+        - 📢 March 2025: I started the African Master's in Machine Intelligence at AIMS.
+
+    imageUrl: "images/profile.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: "Abenezer"
+    buttons:
+      - name: Blogs
+        url: blogs
+      - name: Projects
+        url: projects
+      - name: Resume
+        url: resume/Abenezer-CV.pdf
+
