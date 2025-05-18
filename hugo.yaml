@@ -58,11 +58,6 @@ params:
       title: "Welcome! \U0001F44B"
       content: >-
         I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on ** Privacy-Preserving Federated Learning, Representation Learning, and Reasoning **. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together.
-        
-        ## News
-        - 📰 May 2025: Launched new project "Vision Transformer Implementation".
-        - 🏆 April 2025: Received XYZ award.
-        - 📢 March 2025: Gave a talk at ABC Conference.
 
   socialIcons:
       - name: twitter
@@ -103,15 +98,14 @@ params:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
     # subtitle: "I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on **CV, Computer Vision, and Multimodal**. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together."
-    subtitle: |
-        I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on ** Privacy-Preserving Federated Learning, Representation Learning, and Reasoning **. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together. <br>
-       
+    subtitle: >-
+        I'm **Abenezer Kebede Angamo.** I'm a software engineer and I have interest in doing research on ** Privacy-Preserving Federated Learning, Representation Learning, and Reasoning **. I'm available for research collaboration and open source projects. Shot me an email if you're interested in working together.       
+              
+        ## News
 
-        
 
-        ## News <br>
         - 📢 March 2025: I started the African Master's in Machine Intelligence at AIMS.
-
+      
     imageUrl: "images/profile.png"
     imageWidth: 200
     imageHeight: 200
