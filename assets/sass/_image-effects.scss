@@ -1,69 +1,33 @@
-:root {
-  --accent-color: 0, 122, 255;  /* RGB values for accent color */
-}
-
-html.dark {
-  --accent-color: 59, 130, 246;  /* Different accent color for dark mode */
-}
-
-/* Add smooth transition for theme changes */
-body {
-  transition: background-color 0.3s ease;
-}
-
 .author-intro {
   position: relative;
-  overflow: hidden;
-  padding-top: 2rem;
-}
-
-.avatar-container {
-  position: relative;
-  z-index: 1;
-  padding: 2rem 0;
-  overflow: visible;
-}
-
-.avatar-container::before,
-.avatar-container::after {
-  content: '';
-  position: absolute;
-  inset: -100%;
-  background: radial-gradient(
-    circle at center,
-    rgba(var(--accent-color), 0.08) 0%,
-    rgba(var(--accent-color), 0.05) 25%,
-    rgba(var(--accent-color), 0.02) 50%,
-    transparent 70%
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--background) 70%
   );
-  z-index: -1;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
 }
 
 .author-avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 auto 2rem;
   display: block;
-  max-width: 100%;
-  height: auto;
-  transition: all 0.5s ease;
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
-}
-
-.author-avatar:hover {
-  transform: translateY(-2px);
-  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.15));
-}
-
-html.dark .author-avatar {
-  filter: drop-shadow(0 4px 12px rgba(255, 255, 255, 0.1));
-}
-
-html.dark .author-avatar:hover {
-  filter: drop-shadow(0 6px 16px rgba(255, 255, 255, 0.15));
+  mix-blend-mode: multiply;
 }
 
 .author-bio {
   position: relative;
-  z-index: 1;
-  padding-top: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .author-avatar {
+    width: 200px;
+    height: 200px;
+  }
 }
