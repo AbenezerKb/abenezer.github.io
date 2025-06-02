@@ -38,18 +38,30 @@
 
 .avatar-container {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.avatar-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 150%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at center, rgba(var(--accent-color), 0.1) 0%, rgba(var(--accent-color), 0) 70%);
+    z-index: -1;
 }
 
 .author-avatar {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
-    object-fit: contain;
-    border: 2px solid var(--light);
+    object-fit: cover;
     margin: 0 auto;
-    padding: 5px;
-    background-color: var(--light);
 }
 
 .author-bio {

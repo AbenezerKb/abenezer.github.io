@@ -1,0 +1,57 @@
+:root {
+  --accent-color: 0, 122, 255;  /* RGB values for accent color */
+}
+
+html.dark {
+  --accent-color: 59, 130, 246;  /* Different accent color for dark mode */
+}
+
+/* Add smooth transition for theme changes */
+body {
+  transition: background-color 0.3s ease;
+}
+
+.author-intro {
+  position: relative;
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+.avatar-container {
+  position: relative;
+  z-index: 1;
+}
+
+.avatar-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    rgba(var(--accent-color), 0.1) 0%,
+    rgba(var(--accent-color), 0.05) 30%,
+    rgba(var(--accent-color), 0) 70%
+  );
+  z-index: -1;
+}
+
+.author-avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.author-avatar:hover {
+  transform: scale(1.02);
+}
+
+.author-bio {
+  position: relative;
+  z-index: 1;
+  padding-top: 1rem;
+}
