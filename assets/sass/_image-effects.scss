@@ -20,34 +20,46 @@ body {
 .avatar-container {
   position: relative;
   z-index: 1;
+  padding: 2rem 0;
+  overflow: visible;
 }
 
+.avatar-container::before,
 .avatar-container::after {
   content: '';
   position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200%;
-  height: 100%;
+  inset: -100%;
   background: radial-gradient(
     circle at center,
-    rgba(var(--accent-color), 0.1) 0%,
-    rgba(var(--accent-color), 0.05) 30%,
-    rgba(var(--accent-color), 0) 70%
+    rgba(var(--accent-color), 0.08) 0%,
+    rgba(var(--accent-color), 0.05) 25%,
+    rgba(var(--accent-color), 0.02) 50%,
+    transparent 70%
   );
   z-index: -1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
 
 .author-avatar {
   display: block;
   max-width: 100%;
   height: auto;
-  transition: transform 0.3s ease;
+  transition: all 0.5s ease;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
 }
 
 .author-avatar:hover {
-  transform: scale(1.02);
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.15));
+}
+
+html.dark .author-avatar {
+  filter: drop-shadow(0 4px 12px rgba(255, 255, 255, 0.1));
+}
+
+html.dark .author-avatar:hover {
+  filter: drop-shadow(0 6px 16px rgba(255, 255, 255, 0.15));
 }
 
 .author-bio {
