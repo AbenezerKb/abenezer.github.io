@@ -1,77 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Welcome to My Website on Abenezer</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to My Website on Abenezer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Started MSc in ML</title>
-      <link>http://localhost:1313/posts/started-msc-in-ml/started-msc-in--ml/</link>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/started-msc-in-ml/started-msc-in--ml/</guid>
-      
-      <description>&lt;h2 id=&#34;started-msc-in-ml-at-ammi&#34;&gt;Started MSc in ML at &lt;a href=&#34;https://www.aimsammi.org&#34;&gt;AMMI&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;African Master’s in Machine Intelligence (AMMI) is a novel fully funded one-year intensive graduate program that provides brilliant young Africans with state-of-the-art training in machine learning and its applications. The program is sponsored by &lt;strong&gt;Meta&lt;/strong&gt; and &lt;strong&gt;Google&lt;/strong&gt;.&lt;br&gt;
-The program provides cutting-edge machine learning education taught by world-class AI experts from around the globe, ensuring students receive top-tier instruction comparable to leading international program&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>LoRA Implementation</title>
-      <link>http://localhost:1313/projects/lora/lora-implementation/</link>
-      <pubDate>Sun, 17 Dec 2023 23:15:00 +0700</pubDate>
-      
-      <guid>http://localhost:1313/projects/lora/lora-implementation/</guid>
-      
-      <description>&lt;p&gt;LoRA: Low-Rank Adaptation of Large Language Models PyTorch Implementation.&lt;/p&gt;
-&lt;p&gt;Link for the Paper &lt;a href=&#34;https://arxiv.org/abs/2106.09685&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Link for PyTorch Implementation &lt;a href=&#34;https://github.com/AbenezerKb/LoRA-implementation&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Vision Transformer Implementation</title>
-      <link>http://localhost:1313/projects/vit/vision-transformer/</link>
-      <pubDate>Tue, 11 Jul 2023 23:15:00 +0700</pubDate>
-      
-      <guid>http://localhost:1313/projects/vit/vision-transformer/</guid>
-      
-      <description>&lt;p&gt;Transformer are usually used in NLP. In computer vision, attention is used with CNN as a part of it. But the paper &lt;strong&gt;An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale&lt;/strong&gt; shows that pure transformer can perform well in image classification. This is a PyTorch implementation of the project.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2010.11929&#34;&gt;Link for the Paper&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/AbenezerKb/vision-transformer-implementation&#34;&gt;Link for PyTorch Implementation&lt;/a&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Transformers Model Architecture Implementation</title>
-      <link>http://localhost:1313/projects/transformer/transformers/</link>
-      <pubDate>Sat, 11 Feb 2023 23:15:00 +0700</pubDate>
-      
-      <guid>http://localhost:1313/projects/transformer/transformers/</guid>
-      
-      <description>&lt;p&gt;This is an implementation for the transformer model architecture based on the paper: Attention is all you need.&lt;/p&gt;
-&lt;p&gt;Link for the Paper &lt;a href=&#34;https://arxiv.org/abs/1706.03762&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Link for PyTorch Implementation &lt;a href=&#34;https://github.com/AbenezerKb/transformer-implementation&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Recommendation System</title>
-      <link>http://localhost:1313/projects/recommendation-system/recommendation-system/</link>
-      <pubDate>Mon, 20 Apr 2020 23:15:00 +0700</pubDate>
-      
-      <guid>http://localhost:1313/projects/recommendation-system/recommendation-system/</guid>
-      
-      <description>&lt;h2 id=&#34;recommendation-system&#34;&gt;Recommendation System.&lt;/h2&gt;
-&lt;p&gt;This is a movie recommendation system. It works based on users&amp;rsquo; ratings for collaborative filtering and it also works based on content filtering to handle cold-start problem&lt;/p&gt;
-&lt;p&gt;The data used in this project is from &lt;a href=&#34;https://grouplens.org/datasets/movielens&#34;&gt;this website&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Link for the Project &lt;a href=&#34;https://github.com/AbenezerKb/recommender-system&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to My Website on Abenezer</title><link>https://abenezerkb.github.io/</link><description>Recent content in Welcome to My Website on Abenezer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://abenezerkb.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Started MSc in ML</title><link>https://abenezerkb.github.io/posts/started-msc-in-ml/started-msc-in--ml/</link><pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate><guid>https://abenezerkb.github.io/posts/started-msc-in-ml/started-msc-in--ml/</guid><description>&lt;h2 id="started-msc-in-ml-at-ammi">Started MSc in ML at &lt;a href="https://www.aimsammi.org">AMMI&lt;/a>&lt;/h2>
+&lt;p>African Master’s in Machine Intelligence (AMMI) is a novel fully funded one-year intensive graduate program that provides brilliant young Africans with state-of-the-art training in machine learning and its applications. The program is sponsored by &lt;strong>Meta&lt;/strong> and &lt;strong>Google&lt;/strong>.&lt;br>
+The program provides cutting-edge machine learning education taught by world-class AI experts from around the globe, ensuring students receive top-tier instruction comparable to leading international program&lt;/p></description></item><item><title>LoRA Implementation</title><link>https://abenezerkb.github.io/projects/lora/lora-implementation/</link><pubDate>Sun, 17 Dec 2023 23:15:00 +0700</pubDate><guid>https://abenezerkb.github.io/projects/lora/lora-implementation/</guid><description>&lt;p>LoRA: Low-Rank Adaptation of Large Language Models PyTorch Implementation.&lt;/p>
+&lt;p>Link for the Paper &lt;a href="https://arxiv.org/abs/2106.09685">here&lt;/a>&lt;/p>
+&lt;p>Link for PyTorch Implementation &lt;a href="https://github.com/AbenezerKb/LoRA-implementation">here&lt;/a>&lt;/p></description></item><item><title>Vision Transformer Implementation</title><link>https://abenezerkb.github.io/projects/vit/vision-transformer/</link><pubDate>Tue, 11 Jul 2023 23:15:00 +0700</pubDate><guid>https://abenezerkb.github.io/projects/vit/vision-transformer/</guid><description>&lt;p>Transformer are usually used in NLP. In computer vision, attention is used with CNN as a part of it. But the paper &lt;strong>An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale&lt;/strong> shows that pure transformer can perform well in image classification. This is a PyTorch implementation of the project.&lt;/p>
+&lt;p>&lt;a href="https://arxiv.org/abs/2010.11929">Link for the Paper&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/AbenezerKb/vision-transformer-implementation">Link for PyTorch Implementation&lt;/a>&lt;/p></description></item><item><title>Transformers Model Architecture Implementation</title><link>https://abenezerkb.github.io/projects/transformer/transformers/</link><pubDate>Sat, 11 Feb 2023 23:15:00 +0700</pubDate><guid>https://abenezerkb.github.io/projects/transformer/transformers/</guid><description>&lt;p>This is an implementation for the transformer model architecture based on the paper: Attention is all you need.&lt;/p>
+&lt;p>Link for the Paper &lt;a href="https://arxiv.org/abs/1706.03762">here&lt;/a>&lt;/p>
+&lt;p>Link for PyTorch Implementation &lt;a href="https://github.com/AbenezerKb/transformer-implementation">here&lt;/a>&lt;/p></description></item><item><title>Recommendation System</title><link>https://abenezerkb.github.io/projects/recommendation-system/recommendation-system/</link><pubDate>Mon, 20 Apr 2020 23:15:00 +0700</pubDate><guid>https://abenezerkb.github.io/projects/recommendation-system/recommendation-system/</guid><description>&lt;h2 id="recommendation-system">Recommendation System.&lt;/h2>
+&lt;p>This is a movie recommendation system. It works based on users&amp;rsquo; ratings for collaborative filtering and it also works based on content filtering to handle cold-start problem&lt;/p>
+&lt;p>The data used in this project is from &lt;a href="https://grouplens.org/datasets/movielens">this website&lt;/a>&lt;/p>
+&lt;p>Link for the Project &lt;a href="https://github.com/AbenezerKb/recommender-system">here&lt;/a>&lt;/p></description></item></channel></rss>

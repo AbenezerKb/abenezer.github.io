@@ -1,24 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Abenezer</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Abenezer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 22:05:29 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Started MSc in ML</title>
-      <link>http://localhost:1313/posts/started-msc-in-ml/started-msc-in--ml/</link>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/started-msc-in-ml/started-msc-in--ml/</guid>
-      
-      <description>&lt;h2 id=&#34;started-msc-in-ml-at-ammi&#34;&gt;Started MSc in ML at &lt;a href=&#34;https://www.aimsammi.org&#34;&gt;AMMI&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;African Master’s in Machine Intelligence (AMMI) is a novel fully funded one-year intensive graduate program that provides brilliant young Africans with state-of-the-art training in machine learning and its applications. The program is sponsored by &lt;strong&gt;Meta&lt;/strong&gt; and &lt;strong&gt;Google&lt;/strong&gt;.&lt;br&gt;
-The program provides cutting-edge machine learning education taught by world-class AI experts from around the globe, ensuring students receive top-tier instruction comparable to leading international program&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Abenezer</title><link>https://abenezerkb.github.io/posts/</link><description>Recent content in Posts on Abenezer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 22:05:29 +0000</lastBuildDate><atom:link href="https://abenezerkb.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Started MSc in ML</title><link>https://abenezerkb.github.io/posts/started-msc-in-ml/started-msc-in--ml/</link><pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate><guid>https://abenezerkb.github.io/posts/started-msc-in-ml/started-msc-in--ml/</guid><description>&lt;h2 id="started-msc-in-ml-at-ammi">Started MSc in ML at &lt;a href="https://www.aimsammi.org">AMMI&lt;/a>&lt;/h2>
+&lt;p>African Master’s in Machine Intelligence (AMMI) is a novel fully funded one-year intensive graduate program that provides brilliant young Africans with state-of-the-art training in machine learning and its applications. The program is sponsored by &lt;strong>Meta&lt;/strong> and &lt;strong>Google&lt;/strong>.&lt;br>
+The program provides cutting-edge machine learning education taught by world-class AI experts from around the globe, ensuring students receive top-tier instruction comparable to leading international program&lt;/p></description></item></channel></rss>
