@@ -1,11 +1,15 @@
 {{ $pdf := .Get "src" }}
 <div class="pdf-container">
-    <embed
-        src="{{ $pdf }}"
+    <object
+        data="{{ $pdf }}"
         type="application/pdf"
         width="100%"
-        height="800px"
-        style="border: none;">
+        height="800px">
+        <div class="pdf-fallback">
+            <p>It seems your browser doesn't support embedded PDFs.</p>
+            <p><a href="{{ $pdf }}" target="_blank">Click here to download the PDF</a></p>
+        </div>
+    </object>
 </div>
 
 <style>
