@@ -15,7 +15,7 @@ theme = "hugo-blog-awesome"
     weight = 2
   [[menu.main]]
     name = "CV"
-    url = "/cv/Abenezer_Kebede_Angamo.pdf"
+    url = "/cv/"
     weight = 3
 
 [[params.socialIcons]]
