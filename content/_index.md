@@ -10,6 +10,6 @@ I'm Abenezer. I've been working as a software engineer for more than 3 years. Cu
 
 # About Me
 
-I'm a born again Christian. I was born and raised in Ethiopia. I usually love to engage myself with church activities. Besides that I usually spend my time working on tech projects, mostly on ML, and love to explore Computer Science related researches. Stay tuned for personal and professional updates!
+I'm a born again Christian. I was born and raised in Ethiopia. I usually love to engage myself with church activities. Besides that I usually spend my time working on tech projects, mostly on ML, and love to explore Computer Science related research papers. Stay tuned for personal and professional updates!
 
 # Latest Posts
